@@ -13,7 +13,7 @@ class Dup_3
 
         for(int i=0; i<str.length(); i++)
         {
-            count[str.charAt(i)]++;
+            count[str.charAt(i)]++; //Counting Duplicates
         }
 
         for(int i=0; i<256; i++) //loop for 256 characters
