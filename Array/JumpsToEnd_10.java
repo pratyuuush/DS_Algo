@@ -1,3 +1,4 @@
+//O(n)
 import java.util.*;
 
 class JumpsToEnd_10
