@@ -17,6 +17,8 @@ class LargestSumKadane_8
             a[i] = sobj.nextInt();
         }
 
+        //If it is mentioned that the array is sorted then this method can be applied directly else need to sort it first.
+
         int curSum = 0;
         int maxSum = 0;
 

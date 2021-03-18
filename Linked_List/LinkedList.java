@@ -179,18 +179,8 @@ class LinkedList
     { 
         LinkedList llist = new LinkedList(); 
        
-        
-        llist.insertBeginning(4);
-        llist.insertEnd(10);
-        llist.insertBeginning(5);
-        llist.insertEnd(11);
-        llist.insertBeginning(41);
-        llist.insertEnd(101);
-        llist.insertBeginning(25);
-        llist.insertEnd(112);
-        llist.printList(); 
-        llist.deleteGivenValue(41);
         llist.printList();
-       
+        llist.insertBeginning(4);
+        llist.printList();
     } 
 } 
