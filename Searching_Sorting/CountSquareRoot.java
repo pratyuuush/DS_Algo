@@ -36,7 +36,8 @@ public class CountSquareRoot
                 ans1 = mid;
                 break;
             }
-            else{
+            else
+            {
                 high = mid - 1;
             }
         }
