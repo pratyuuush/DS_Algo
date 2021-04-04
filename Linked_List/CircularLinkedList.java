@@ -6,7 +6,7 @@ class CircularLinkedList
         Node next;
     }
     
-    static Node push(Node head_ref, int data)
+    static Node insertFirst(Node head_ref, int data)
     {
         Node new_node = new Node();
         Node n = head_ref;
@@ -106,17 +106,15 @@ class CircularLinkedList
         
         Node head = null;
     
-        head = push(head, 12);
-        head = push(head, 22);
-        head = push(head, 32);
-        head = push(head, 42);
+        head = insertFirst(head, 12);
+        head = insertFirst(head, 22);
+        head = insertFirst(head, 32);
+        head = insertFirst(head, 42);
         head = deleteGivenValue(head, 7);
     
         System.out.println("Contents of Circular " + "Linked List:");
         printList(head);
-        head = deleteGivenValue(head, 7);
-        System.out.println("Contents of Circular " + "Linked List:");
-        printList(head);
+    
     }
 }
  

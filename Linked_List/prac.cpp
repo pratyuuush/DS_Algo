@@ -7,7 +7,6 @@ int main()
     int *b  = &a;
     int **c = &b;
     int ***d = &c;
-    cout << *b << endl;
-    cout << c << endl;
-    cout << d << endl;
+    cout << **c << endl;
+    
 }

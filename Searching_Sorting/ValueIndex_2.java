@@ -1,6 +1,6 @@
 import java.util.*;
 
-class ValueIndex
+class ValueIndex_2
 {
     public static void main(String args[]) 
     {

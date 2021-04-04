@@ -6,11 +6,12 @@ class QuickSort
     public static void printArray(int a[], int n)
     {
         System.out.println("Array is: ");
-        for(int i=0; i<n; i++)
+        System.out.print("[");
+        for(int i=0; i<n-1; i++)
         {
-            System.out.print(a[i] + " ");
+            System.out.print(a[i] + ", ");
         }    
-        System.out.println();
+        System.out.println(a[n-1] + "]");
     }
 
     public static int partition(int a[], int low, int high)
@@ -21,11 +22,11 @@ class QuickSort
         int temp;
         do
         {
-            while(a[i] >= pivot)
+            while(a[i] <= pivot)
             {
                 i++;
             }
-            while(a[j] < pivot)
+            while(a[j] > pivot)
             {
                 j--;
             }
@@ -41,7 +42,6 @@ class QuickSort
         a[low] = a[j];
         a[j] = temp;
         return j;
-       
     }
 
     public static void quickSort(int a[], int low, int high)

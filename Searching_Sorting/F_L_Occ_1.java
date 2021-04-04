@@ -1,7 +1,7 @@
 //O(logn)
 import java.util.*;
 
-class F_L_Occ
+class F_L_Occ_1
 {
 
     static void firstLast(int n, int x, int a[])

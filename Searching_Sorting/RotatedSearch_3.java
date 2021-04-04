@@ -1,6 +1,6 @@
 import java.util.*;
 
-class RotatedSearch
+class RotatedSearch_3
 {
     static int binSearch(int a[], int low, int high, int key)
     {

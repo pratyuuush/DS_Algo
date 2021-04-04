@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class CountSquareRoot
+public class CountSquareRoot_4
 { 
     static void calSqrt(int n)
     {
