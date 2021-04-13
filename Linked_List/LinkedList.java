@@ -108,7 +108,6 @@ class LinkedList
         }
         n.next = null;
 */
-
     }
 
     public void deleteAtGivenIndex(int index)
@@ -184,4 +183,4 @@ class LinkedList
         llist.insertBeginning(9);
         llist.printList();
     } 
-} */
+} 
