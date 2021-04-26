@@ -8,7 +8,7 @@ class LongestPalindrome_8
     {
         Scanner sobj = new Scanner(System.in);
         String str = sobj.nextLine();    
-        int len = 0;
+
         int resI = 0, resJ = 0;
         boolean dp[][] = new boolean[str.length()][str.length()];
 
