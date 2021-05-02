@@ -45,7 +45,7 @@ class ReverseLL_1
 
     public static void main(String[] args) 
     { 
-        ReverseLL_1 llist = new ReverseLL_1(); 
+        LinkedList llist = new LinkedList(); 
         Scanner sobj = new Scanner(System.in);
         int n = sobj.nextInt();
         for(int i=0; i<n; i++)
@@ -83,6 +83,7 @@ class ReverseLL_1
         {
             System.out.print(ll.get(i) + " ");
         }
+        System.out.println("null");
 
         for(int i=4; i>=0; i--)
         {
