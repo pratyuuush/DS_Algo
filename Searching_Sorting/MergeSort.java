@@ -13,7 +13,7 @@ class MergeSort
         System.out.println();
     }
 
-    static void mergeSort(int a[], int low, int high)
+    static void mergeSort(int a[], int low, int high)  
     {
         if(low < high)
         {

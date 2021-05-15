@@ -10,7 +10,7 @@ class BinarySearch
 
         while(low <= high)
         {
-            int mid = low + (high-low)/2;
+            int mid = low + (high-low)/2; 
 
             if(a[mid] == key)
             {

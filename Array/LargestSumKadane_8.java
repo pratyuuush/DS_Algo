@@ -20,7 +20,7 @@ class LargestSumKadane_8
         //If it is mentioned that the array is sorted then this method can be applied directly else need to sort it first.
 
         int curSum = 0;
-        int maxSum = 0;
+        int maxSum = a[0];
 
         for(int i=0; i<n; i++)
         {

@@ -16,7 +16,8 @@ class InsertionSort
                 j--;
             }
 
-            a[j+1] = key;
+            a[j+1] = key;   
+                           
         }
 
         System.out.println("Sorted array is: ");

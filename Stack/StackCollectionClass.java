@@ -9,6 +9,7 @@ class StackCollectionClass
 
         st.push(10);
         st.push(20);
+        
 
         for(int i=0; i<st.size(); i++)
             System.out.print(st.get(i) + " ");

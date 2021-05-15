@@ -17,7 +17,7 @@ class QuickSort
     public static int partition(int a[], int low, int high)
     {
         int pivot = a[low];
-        int i = low+1;
+        int i = low+1; 
         int j = high;
         int temp;
         do
@@ -33,13 +33,13 @@ class QuickSort
             if(i<j)
             {
                 temp = a[i];
-                a[i] = a[j];
+                a[i] = a[j];  
                 a[j] = temp;
             }
         }while(i<j);
 
         temp = a[low];
-        a[low] = a[j];
+        a[low] = a[j]; 
         a[j] = temp;
         return j;
     }
@@ -49,7 +49,7 @@ class QuickSort
         if(low < high)
         {
             int pi = partition(a,low,high);
-            quickSort(a,low,pi-1);
+            quickSort(a,low,pi-1);   
             quickSort(a,pi+1,high);
         }
     }

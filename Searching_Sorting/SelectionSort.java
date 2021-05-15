@@ -18,7 +18,7 @@ class SelectionSort
         for(int i=0; i<n; i++)
         {
             int min = i;
-            for(int j=i+1; j<n; j++)
+            for(int j=i+1; j<n; j++) // 5 6 11 12 33
             {
                 if(a[j] < a[min])
                     min = j;
