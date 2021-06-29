@@ -19,6 +19,7 @@ class Palindrome
             rev = (rev*10) + rem;
             n = n/10;
         }
+
         if(temp == rev)
         {
             System.out.println("Palindrome");
@@ -29,3 +30,15 @@ class Palindrome
         }
     }
 }
+
+
+/*
+str = maam  
+cpyStr=""
+
+for i=str.length() - 1 to 0
+
+cpyStr = str.charAt
+
+
+*/

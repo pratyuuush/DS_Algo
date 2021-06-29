@@ -18,6 +18,66 @@ class SpiralTraversal
             }
         }
 
+        int minr = 0;
+        int minc = 0;
+        int maxr = mat.length;
+        int maxc = mat[0].length;
+        int temp = row*col;
+        int cnt = 0;
+
+        while(cnt < temp)
+        {
+            for(int i=minr, j=minc; i<=maxr; i++)
+            {
+                System.out.println(mat[i][j]);
+                cnt++;
+            }
+            minc++;
+
+            for(int j=minc, i=maxr; j<=maxc; j++)
+            {
+                System.out.println(mat[i][j]);
+                cnt++;
+            }
+            maxr--;
+
+            for(int i=maxr, j=maxc; i>=minr; i--)
+            {
+                System.out.println(mat[i][j]);
+                cnt++;
+            }
+            maxc--;
+
+            for(int j=maxc, i=minr; j>=minc; j--)
+            {
+                System.out.println(mat[i][j]);
+                cnt++;
+            }
+            minr++;
+        }
+    }
+}
+
+/*import java.util.*;
+
+class SpiralTraversal
+{
+    public static void main(String args[]) 
+    {
+        Scanner sobj = new Scanner(System.in);
+        int col = sobj.nextInt();
+        int row = sobj.nextInt();
+        
+        int mat[][] = new int[row][col];
+
+        for(int i=0; i<row; i++)
+        {
+            for(int j=0; j<col; j++)
+            {
+                mat[i][j] = sobj.nextInt();
+            }
+        }
+
         int top = 0;
         int bottom = row-1;
         int left = 0;
@@ -63,4 +123,4 @@ class SpiralTraversal
 
 
     }
-}
+}*/

@@ -18,7 +18,7 @@ class SelectionSort
         for(int i=0; i<n; i++)
         {
             int min = i;
-            for(int j=i+1; j<n; j++) // 5 6 11 12 33
+            for(int j=i+1; j<n; j++) // 11 6 31 22 3
             {
                 if(a[j] < a[min])
                     min = j;
@@ -48,3 +48,29 @@ class SelectionSort
         printArray(a,n);
     }
 }
+
+/*
+                  key = 6
+3   6  11   22   33
+j                 i
+
+3 6 11 22 33
+
+for i=1 to i<n
+
+    key = a[i]
+    j = i-1
+
+    while(j>=0 && a[j] > key)
+    {
+        a[j+1] = a[j]
+        j--
+    }
+
+    a[j+1] = key
+
+
+
+
+
+*/

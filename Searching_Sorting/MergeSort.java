@@ -15,7 +15,7 @@ class MergeSort
 
     static void mergeSort(int a[], int low, int high)  
     {
-        if(low < high)
+        if(low < high) 
         {
             int mid = low + (high-low)/2;
 
@@ -28,10 +28,10 @@ class MergeSort
     static void merge(int a[], int low, int mid, int high)
     {
         int i, j, k;
-        int b[] = new int[100];
-        i = low;
-        j = mid+1;
-        k = low;
+        int b[] = new int[a.length];
+        i = low; //1st array
+        j = mid+1; //2nd array
+        k = low; //b array
         
 
         while(i <= mid && j <= high)
@@ -68,6 +68,7 @@ class MergeSort
         }
 
     }
+    
 
     public static void main(String args[])
     {

@@ -14,6 +14,7 @@ class LinkedList
         } 
     } 
     
+
     public void printList() //Traversal
     {
         Node n = head;
@@ -24,7 +25,7 @@ class LinkedList
             return;
         }
 
-        while(n != null) //traversing
+        while(n != null) //traversing    
         {
             System.out.print(n.data + " ");
             n = n.next;
@@ -35,7 +36,7 @@ class LinkedList
     public void insertBeginning(int data) 
     {
         Node new_node = new Node(data);
-        
+
         new_node.next = head;
         head = new_node;
     }
@@ -54,6 +55,7 @@ class LinkedList
 
     public void insertEnd(int data) //append
     {
+
         Node new_node = new Node(data);
 
         if(head == null)
@@ -61,7 +63,7 @@ class LinkedList
             head = new_node;
             return;
         }
-    
+
         Node last = head;
 
         while(last.next != null) //traversing
@@ -80,6 +82,8 @@ class LinkedList
             System.out.println("Linked list is empty");
             return;
         }
+
+
         Node n = head;
         Node prev = null;
 

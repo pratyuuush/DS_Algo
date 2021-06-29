@@ -7,7 +7,14 @@ class ArrayMax
         if(n == 1)
          return a[0];
          
+        //2 32 5 11 7  
+        /*
+        (32)
+        */
+
         return Math.max(a[n-1], arrMax(a, n-1));
+
+        //(10,2) = 10
     }
 
     public static void main(String args[])

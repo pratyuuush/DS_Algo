@@ -31,3 +31,6 @@ class JumpsToEnd_10
         System.out.println("Jumps: " + count);
     }
 }
+
+
+

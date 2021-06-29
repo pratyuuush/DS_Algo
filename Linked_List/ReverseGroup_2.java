@@ -1,4 +1,10 @@
 import java.util.*;
+/*
+1 2 3 4 5      k=2
+2 1 4 3 5
+*/
+
+
 
 class ReverseGroup_2 
 { 

@@ -43,3 +43,35 @@ class BinarySearch
         
     }
 }
+
+
+
+
+class Imran
+{
+    void sum(int a, int b) //1
+    {
+        //Statements
+    } 
+
+    void sum(int a, int b, int c) //2
+    {
+        //Statements
+    }
+
+    void sum(double a, double b)//3
+    {
+        //Statements
+    }
+
+    public static void main(String args[])
+    {
+        sum(1,2);
+        sum(1,2,3);
+        sum(1.1,2.3);
+    }
+
+
+}
+
+

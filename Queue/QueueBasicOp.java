@@ -30,7 +30,7 @@ class Queue
 
     void printQueue()
     {
-        if(r==-1)
+        if(r == -1)
         {
             System.out.println("Queue is empty");
         }
@@ -40,11 +40,13 @@ class Queue
             System.out.print(a[i] + " ");
         }
         System.out.println();
+
+
     }
 
     void enqueue(int data)
     {
-        if(r==MAX-1)
+        if(r == MAX-1)
         {
             System.out.println("Queue is full");
             return;
@@ -82,3 +84,12 @@ class QueueBasicOp
 
     }
 }
+
+
+/*
+front
+rear
+Q
+deque
+
+*/
